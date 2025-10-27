@@ -1,0 +1,3 @@
+<Addins host-reference="/nix/store/g7a7z6acwxv2d0b3ipxn94150bswni3r-Pinta-3.0.3/lib/Pinta/Pinta.dll">
+  <Directory shared="false">/nix/store/g7a7z6acwxv2d0b3ipxn94150bswni3r-Pinta-3.0.3/lib/Pinta</Directory>
+</Addins>

@@ -1,0 +1,193 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "source": "NixOS",
+    "color": {
+      "1": "#EEE8AA",
+      "2": "#7B68EE",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": ""
+    },
+    "width": null,
+    "height": null,
+    "padding": {
+      "top": 1,
+      "left": 1,
+      "right": 2
+    },
+    "printRemaining": true,
+    "preserveAspectRatio": true,
+    "recache": false,
+    "position": "left",
+    "chafa": {
+      "fgOnly": false,
+      "symbols": "block+border+space-wide-inverted"
+    }
+  },
+  "display": {
+    "stat": false,
+    "key": {
+        "width": 8
+    },
+    "pipe": false,
+    "showErrors": false,
+    "disableLinewrap": true,
+    "hideCursor": true,
+    "separator": "│ ",
+    "constants": [
+      "──────────────────────",
+      "────────────",
+      "\u001b[91`"
+    ],
+    "color": {
+      "keys": "#9a8bef",
+      "title": "#9a8bef",
+      "output": "#EEE8AA",
+      "separator": "#EEE8AA"
+    },
+    "brightColor": false,
+    "percent": {
+      "type": [
+        "num"
+      ],
+      "ndigits": 0,
+      "spaceBeforeUnit": "default",
+      "width": 0
+    },
+    "fraction": {
+      "ndigits": 2
+    },
+    "noBuffer": false,
+    "key": {
+      "width": 0,
+      "type": "string",
+      "paddingLeft": 0
+    },
+  },
+  "general": {
+    "thread": true,
+    "processingTimeout": 5000,
+    "detectVersion": true,
+    "playerName": "",
+    "dsForceDrm": false
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": " ",
+      "outputColor": "",
+    },
+    {
+      "type": "custom",
+      "format": "{$1}{$1}┐",
+      "outputColor": "",
+    },
+    {
+      "type": "title",
+      "key": " ",
+      "format": "{##9a8bef}{full-user-name} on {host-name}{##EEE8AA}{$3}│"
+    },
+    {
+            "type": "datetime",
+            "key": " ",
+            "format": "{##9a8bef}{month-name} {day-pretty}, {year}, {hour-pretty}:{minute-pretty} ({timezone-name} / UTC{offset-from-utc}){##EEE8AA}{$3}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#bright_#EEE8AA}Hardware{##EEE8AA} ┌{$2}{$1}┤",
+      "outputColor": "",
+    },
+    {
+      "type": "host",
+      "key": "Machine  ",
+      "format": "{vendor} {family}{##EEE8AA}{$3}│"
+    },
+        {
+      "type": "cpu",
+      "key": "CPU      ",
+      "format": "{name~0,14} {name~18,22} {name~27,29}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "memory",
+      "key": "Memory   ",
+      "format" : "{used} / {total}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "disk",
+      "key": "Disk     ",
+      "format": "{size-used} / {size-available}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "battery",
+      "key": "Battery  ",
+      "format": "{capacity}, {cycle-count} cycles lifetime{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#bright_#EEE8AA}Software{##EEE8AA} ├{$2}{$1}┤",
+      "outputColor": "",
+    },
+    {
+      "type": "os",
+      "key": "Distro   ",
+      "format": "{pretty-name}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel   ",
+      "format":"{sysname} {release} ({arch}){##EEE8AA}{$3}│"
+    },
+    {
+      "type": "packages",
+      "key": "Packages ",
+      "format":"{nix-system} (nix-system){##EEE8AA}{$3}│"
+    },
+    {
+      "type": "custom",
+      "format": "- - - - -├{$2}{$1}┤",
+      "outputColor": "",
+    },
+    {
+      "type": "shell",
+      "key": "Shell    ",
+      "format": "{pretty-name} {version}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "editor",
+      "key": "Editor   ",
+      "format": "{name} {version}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "terminal",
+      "key": "Terminal ",
+      "format": "{pretty-name} {version}{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "wm",
+      "key": "DE/WM    ",
+      "format": "{pretty-name} {version} ({protocol-name}){##EEE8AA}{$3}│",
+      "detectPlugin": false
+    },
+    {
+      "type": "custom",
+      "key": "Rice Ver.",
+      "format": "WIP built off linux-retroism, 0.2{##EEE8AA}{$3}│"
+    },
+    {
+      "type": "custom",
+      "format": "─────────┴{$2}{$1}┘",
+      "outputColor": "",
+    },
+    {
+      "type": "custom",
+      "format": " ",
+      "outputColor": "",
+    }
+  ]
+}

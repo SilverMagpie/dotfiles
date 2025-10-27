@@ -1,0 +1,6 @@
+.bashrc
+dotfiles/
+.config/
+Downloads/
+Projects/
+blank-dir

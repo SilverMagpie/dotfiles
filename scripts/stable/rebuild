@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+cd $DOTFILES_DIR
+git config core.pager cat
+echo "Rebuilding..."
+current=$(nixos-rebuild list-generations | grep True | awk '{print $4,"generation",$1,"kernel version",$5,"at",$3,$2}')
+git diff HEAD --minimal
+if [[ $* =~ u ]]; then
+    nix-channel --update
+    nix flake update
+fi
+git add .
+git commit -am "$current rebuilding"
+sudo nixos-rebuild switch --impure --flake $DOTFILES_DIR#$HOSTNAME
+if [[ $* =~ p ]]; then
+sync-dotfiles
+fi
+if [[ $* =~ r ]]; then
+reboot
+fi
