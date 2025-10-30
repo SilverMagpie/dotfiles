@@ -20,6 +20,7 @@
     speedcrunch
     vscodium
     typora
+    unrar
     inputs.oxide_timer.packages.${pkgs.system}.default # imports morrigan's timer, oxide
   ];
 }
