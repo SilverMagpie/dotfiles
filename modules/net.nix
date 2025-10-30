@@ -2,7 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     firefox
-    tor-browser
+    # tor-browser
     # hugo
     signal-desktop
     # signal-cli
