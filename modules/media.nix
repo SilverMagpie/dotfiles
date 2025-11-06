@@ -9,7 +9,6 @@
     tagutil
     mgba
     dolphin-emu
-    sgt-puzzles
   ];
 
   programs.steam.enable = true;
