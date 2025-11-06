@@ -9,7 +9,6 @@
     tagutil
     mgba
     dolphin-emu
-    nethack
   ];
 
   programs.steam.enable = true;
