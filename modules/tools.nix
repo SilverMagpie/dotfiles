@@ -23,6 +23,7 @@
     typora
     unrar
     python3
+    discordchatexporter-desktop
     inputs.oxide_timer.packages.${pkgs.system}.default # imports morrigan's timer, oxide
   ];
 }
