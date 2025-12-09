@@ -9,6 +9,7 @@
     tagutil
     mgba
     dolphin-emu
+    vintagestory
   ];
 
   programs.steam.enable = true;
