@@ -7,6 +7,7 @@
     zathura
     ytdl-sub
     tagutil
+    snes9x
     mgba
     dolphin-emu
     vintagestory
