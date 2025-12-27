@@ -10,7 +10,7 @@
     snes9x-gtk
     mgba
     dolphin-emu
-    # vintagestory
+    vintagestory
   ];
 
   programs.steam.enable = true;
