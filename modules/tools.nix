@@ -27,7 +27,7 @@
     # Trying to get bluetooth
     kdePackages.kdeplasma-addons
     kdePackages.plasma-nm
-    overskirde
+    overskride
     inputs.oxide_timer.packages.${pkgs.system}.default # imports morrigan's timer, oxide
   ];
 }
