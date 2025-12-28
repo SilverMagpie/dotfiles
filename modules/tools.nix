@@ -24,8 +24,10 @@
     unrar
     python3
     discordchatexporter-desktop
+    # Trying to get bluetooth
     kdePackages.kdeplasma-addons
     kdePackages.plasma-nm
+    overskirde
     inputs.oxide_timer.packages.${pkgs.system}.default # imports morrigan's timer, oxide
   ];
 }
