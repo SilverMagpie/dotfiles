@@ -11,6 +11,7 @@
     mgba
     dolphin-emu
     vintagestory
+    protonup-qt
   ];
 
   programs.steam.enable = true;
