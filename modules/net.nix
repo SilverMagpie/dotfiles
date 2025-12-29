@@ -37,8 +37,8 @@
           openFirewall = true;
       };
   services.mullvad-vpn.enable = true;
-  services.blueman.enable = false; # bluetooth, change to true if needed
-  hardware.bluetooth.enable = false; # bluetooth, change to true if needed
+  services.blueman.enable = true; # bluetooth, change to true if needed
+  hardware.bluetooth.enable = true; # bluetooth, change to true if needed
   hardware.bluetooth.powerOnBoot = false; # bluetooth on boot
   services.printing = {
           enable = true;
