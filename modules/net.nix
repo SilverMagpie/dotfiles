@@ -9,7 +9,8 @@
     vesktop
     # discordchatexporter-cli
     # discordo
-	mullvad-vpn
+	# mullvad-vpn
+	mullvad
     networkmanager
   ];
 
