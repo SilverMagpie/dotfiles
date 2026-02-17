@@ -12,6 +12,7 @@
 	# mullvad-vpn
 	mullvad
     networkmanager
+    stoat-desktop
   ];
 
   networking = {
