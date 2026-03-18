@@ -10,7 +10,7 @@
     # snes9x-gtk
     mgba
     dolphin-emu
-    # cemu
+    cemu
     vintagestory
     protonup-qt
   ];
