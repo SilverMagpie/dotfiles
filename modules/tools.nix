@@ -15,8 +15,7 @@
     deno
     inkscape-with-extensions
     kapow
-    libreoffice
-    # libreoffice-fresh
+    # libreoffice
     pinta
     speedcrunch
     vscodium

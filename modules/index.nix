@@ -9,5 +9,6 @@ imports =
       ./media.nix
       ./net.nix
       ./vars.nix
+      ./stable.nix
     ];
 }
