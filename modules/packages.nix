@@ -73,7 +73,7 @@
     kdePackages.kclock # Clock app
     kdePackages.kcolorchooser # A small utility to select a color
     kdePackages.kolourpaint # Easy-to-use paint program
-    kdePackages.ksysteml-og # KDE SystemLog Application
+    kdePackages.ksystemlog # KDE SystemLog Application
     kdePackages.sddm-kcm # Configuration module for SDDM
     kdiff3 # Compares and merges 2 or 3 files or directories
     hardinfo2 # System information and benchmarks for Linux systems
