@@ -21,4 +21,9 @@
    };
     time.timeZone = "US/Pacific";
     i18n.defaultLocale = "en_US.UTF-8";
+
+    nixpkgs.config.permittedInsecurePackages = [
+    "electron-38.8.4"
+    ];
+
 }
