@@ -25,7 +25,7 @@
   in
   {
     nixosConfigurations.${variables.hostname} = nixpkgs.lib.nixosSystem {
-      system = "x86_64-linux";
+      stdenv.hostPlatform.system = "x86_64-linux";
       specialArgs = { inherit inputs variables; };
       modules = [
         ./index.nix
