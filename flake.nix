@@ -4,6 +4,8 @@
   inputs = {
     nixos-hardware.url = "github:NixOS/nixos-hardware/master";
     nixpkgs.url = "nixpkgs/nixos-unstable";
+    # testing this line
+    nixpkgs.pkgs = pkgs;
     nixpkgs-stable.url = "nixpkgs/nixos-25.11";
     oxide_timer = { # morrigan's timer
       url = "path:./modules/oxide_timer";
