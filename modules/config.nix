@@ -48,7 +48,7 @@
     displayManager.sddm.wayland.enable = true;
   };
 
-  powermanagement.enable = true;
+  powerManagement.enable = true;
 
   programs = {
     git.config = {
