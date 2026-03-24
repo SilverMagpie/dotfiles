@@ -8,5 +8,5 @@
       ./packages.nix
       ./stable.nix
       ./vars.nix
-    ]
+    ];
 }
