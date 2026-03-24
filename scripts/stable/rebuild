@@ -8,6 +8,7 @@ if [[ $* =~ u ]]; then
     nix-channel --update
     nix flake update
 fi
+echo "Checkpoint 1"
 git add .
 git commit -am "$current rebuilding"
 sudo nixos-rebuild switch --impure --flake $DOTFILES_DIR#$HOSTNAME
