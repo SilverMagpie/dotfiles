@@ -13,6 +13,7 @@
       allowUnfree = true;
       allowUnfreePredicate = (_: true);
     };
+    pkgs = pkgs;
   };
 
   nix = let
