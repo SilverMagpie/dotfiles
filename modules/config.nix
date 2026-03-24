@@ -1,5 +1,7 @@
 { inputs, config, pkgs, variables, ... }:
 {
+  hardware.graphics.enable = true;
+
   services = {
     # Automatically mount removable media to /media
     udisks2.enable = true;
@@ -37,7 +39,16 @@
       xkb.layout = "us";
       xkb.variant = "";
     };
+    
+    thermald.enable = true;
+
+    # KDE
+    desktopManager.plasma6.enable = true;
+    displayManager.sddm.enable = true;
+    displayManager.sddm.wayland.enable = true;
   };
+
+  powermanagement.enable = true;
 
   programs = {
     git.config = {
@@ -62,8 +73,6 @@
     polkit.enable = true;
     rtkit.enable = true;
   };
-
-  services.thermald.enable = true;
 
   # if you ever need appimages this is magic code that does magic
   boot.binfmt.registrations.appimage = {

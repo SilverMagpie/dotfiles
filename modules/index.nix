@@ -1,14 +1,12 @@
 { inputs, config, pkgs, ... }:
 {
-imports =
+  imports = 
     [
-      ./base.nix
       ./boot.nix
-      ./plasma.nix
-      ./tools.nix
-      ./media.nix
+      ./config.nix
       ./net.nix
-      ./vars.nix
+      ./packages.nix
       ./stable.nix
-    ];
+      ./vars.nix
+    ]
 }
