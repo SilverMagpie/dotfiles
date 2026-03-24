@@ -1,5 +1,6 @@
 { inputs, config, pkgs, ... }:
 {
+nixpkgs.pkgs = pkgs;
 imports =
     [
       ./base.nix
