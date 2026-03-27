@@ -26,4 +26,6 @@
     "electron-38.8.4"
     ];
 
+    nixpkgs.config.allowUnsupportedSystem = true;
+
 }
