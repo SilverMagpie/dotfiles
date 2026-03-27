@@ -10,6 +10,7 @@
     bashly
     bc
     gh
+    vim
 
     #### WORKFLOW-GUI ####
     speedcrunch
