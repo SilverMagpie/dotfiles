@@ -1,7 +1,7 @@
 { inputs, config, pkgs, variables, ... }:
 {
   environment.systemPackages = with pkgs; [
-    #### WORKFLOW-CLI ####
+    ### WORKFLOW-CLI ###
     fastfetch
     neovim
     neovide
@@ -12,12 +12,12 @@
     gh
     vim
 
-    #### WORKFLOW-GUI ####
+    ### WORKFLOW-GUI ###
     speedcrunch
     protonup-qt
     gparted
 
-    #### UTILS ####
+    ### UTILS ###
     # mullvad - stable branch
     wget
     unzip
@@ -28,7 +28,7 @@
     dust
     fzf
 
-    #### WORKFLOW ####
+    ### WORKFLOW ###
     # libreoffice - stable branch
     vscodium
     typora
@@ -40,19 +40,19 @@
     # cargo # Rust
     # gradle # Java
 
-    #### COMMUNICATION ####
+    ### COMMUNICATION ###
     # Vesktop - stable branch
     stoat-desktop
     signal-desktop
 
-    #### MEDIA ####
+    ### MEDIA ###
     vlc
     yt-dlp
     ytdl-sub
     firefox
     ffmpeg
 
-    #### GAMING ####
+    ### GAMING ###
     wine
     prismlauncher
     vintagestory
@@ -60,7 +60,7 @@
     dolphin-emu
     cemu
 
-    #### FIRMWARE ####
+    ### FIRMWARE ###
     linux-firmware
     fwupd
     networkmanager
@@ -68,7 +68,7 @@
     pipewire
     pipecontrol
 
-    #### KDE ####
+    ### KDE ###
     kdePackages.kate
     kdePackages.kcharselect # Tool to select and copy special characters from all installed fonts
     kdePackages.kclock # Clock app
@@ -87,7 +87,7 @@
   ];
 
   environment.plasma6.excludePackages = with pkgs; [
- 		kdePackages.elisa # Simple music player aiming to provide a nice experience for its users
+    kdePackages.elisa # Simple music player aiming to provide a nice experience for its users
     kdePackages.kdepim-runtime # Akonadi agents and resources
     kdePackages.kmahjongg # KMahjongg is a tile matching game for one or two players
     kdePackages.kmines # KMines is the classic Minesweeper game
