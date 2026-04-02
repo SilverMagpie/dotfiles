@@ -59,7 +59,7 @@
     mgba
     dolphin-emu
     cemu
-    olympus
+    olympus.override { celesteWrapper = "steam-run"; }
 
     ### FIRMWARE ###
     linux-firmware
