@@ -59,6 +59,7 @@
     mgba
     dolphin-emu
     cemu
+    celestegame
 
     ### FIRMWARE ###
     linux-firmware
