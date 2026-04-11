@@ -58,7 +58,7 @@
     vintagestory
     mgba
     dolphin-emu
-    cemu
+    # cemu
     (olympus.override { celesteWrapper = "steam-run"; })
 
     ### FIRMWARE ###
