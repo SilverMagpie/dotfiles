@@ -3,7 +3,7 @@
 { inputs, config, pkgs, ... }:
 {
   environment.systemPackages = with inputs.nixpkgs-stable.legacyPackages.${pkgs.system}; [
-    mullvad-vpn
+    mullvad
     libreoffice
     vesktop
   ];

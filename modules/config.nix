@@ -48,9 +48,9 @@
     displayManager.sddm.wayland.enable = true;
 
     # MULLVAD
-    mullvad-vpn = {
+    mullvad = {
       enable = true;
-      package = pkgs.mullvad-vpn;
+      package = pkgs.mullvad;
     };
   };
 
