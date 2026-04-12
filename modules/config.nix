@@ -46,6 +46,12 @@
     desktopManager.plasma6.enable = true;
     displayManager.sddm.enable = true;
     displayManager.sddm.wayland.enable = true;
+
+    # MULLVAD
+    mullvad-vpn = {
+      enable = true;
+      package = pkgs.mullvad-vpn;
+    };
   };
 
   powerManagement.enable = true;
