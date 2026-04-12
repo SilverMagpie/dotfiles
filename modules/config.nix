@@ -50,7 +50,7 @@
     # MULLVAD
     mullvad-vpn = {
       enable = true;
-      package = pkgs.mullvad;
+      package = pkgs.mullvad-vpn;
     };
   };
 

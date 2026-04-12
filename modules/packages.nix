@@ -18,7 +18,7 @@
     gparted
 
     ### UTILS ###
-    # mullvad - stable branch
+    mullvad-vpn
     wget
     unzip
     zip
