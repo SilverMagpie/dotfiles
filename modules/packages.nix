@@ -32,6 +32,7 @@
     # libreoffice - stable branch
     vscodium
     typora
+    obsidian
     inkscape-with-extensions
     pinta
     git
