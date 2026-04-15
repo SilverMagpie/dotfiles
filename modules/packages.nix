@@ -36,6 +36,7 @@
     inkscape-with-extensions
     pinta
     git
+    syncthing
     python315
     # deno # JavaScript
     # cargo # Rust
