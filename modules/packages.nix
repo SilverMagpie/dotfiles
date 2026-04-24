@@ -67,7 +67,7 @@
     linux-firmware
     fwupd
     networkmanager
-    dbus-broker
+    dbus
     pipewire
     pipecontrol
 
