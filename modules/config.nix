@@ -52,6 +52,9 @@
       enable = true;
       package = pkgs.mullvad-vpn;
     };
+
+    # DBUS
+    dbus.implementation = "dbus";
   };
 
   powerManagement.enable = true;
