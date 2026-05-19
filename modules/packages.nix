@@ -69,7 +69,7 @@
     networkmanager
     dbus
     pipewire
-    pipecontrol
+    # pipecontrol
 
     ### KDE ###
     kdePackages.kate
