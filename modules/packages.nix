@@ -38,6 +38,7 @@
     git
     syncthing
     python315
+    hugo
     # deno # JavaScript
     # cargo # Rust
     # gradle # Java
