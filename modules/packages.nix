@@ -58,9 +58,9 @@
     ### GAMING ###
     wine
     prismlauncher
-    vintagestory
+    # vintagestory
     mgba
-    dolphin-emu
+    # dolphin-emu
     # cemu
     (olympus.override { celesteWrapper = "steam-run"; })
     benhsm-minesweeper
