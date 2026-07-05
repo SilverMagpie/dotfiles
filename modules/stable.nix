@@ -5,6 +5,6 @@
   environment.systemPackages = with inputs.nixpkgs-stable.legacyPackages.${pkgs.system}; [
     # mullvad
     libreoffice
-    # vesktop
+    vesktop
   ];
 }
