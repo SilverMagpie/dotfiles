@@ -88,7 +88,7 @@
   ];
 
   nixpkgs.config.permittedInsecurePackages = [
-    "electron-38.8.4"
+    # "electron-38.8.4"
   ];
 
   environment.plasma6.excludePackages = with pkgs; [
