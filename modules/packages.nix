@@ -18,7 +18,7 @@
     gparted
 
     ### UTILS ###
-    mullvad
+#     mullvad
     wget
     unzip
     zip
