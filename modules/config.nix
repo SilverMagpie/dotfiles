@@ -48,10 +48,10 @@
     displayManager.sddm.wayland.enable = true;
 
     # MULLVAD
-    mullvad-vpn = {
-      enable = true;
-      package = pkgs.mullvad-vpn;
-    };
+#     mullvad-vpn = {
+#       enable = true;
+#       package = pkgs.mullvad-vpn;
+#     };
 
     # DBUS
     dbus.implementation = "dbus";
