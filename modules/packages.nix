@@ -18,7 +18,7 @@
     gparted
 
     ### UTILS ###
-    mullvad-vpn
+    mullvad
     wget
     unzip
     zip
