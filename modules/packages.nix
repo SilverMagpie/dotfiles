@@ -60,7 +60,8 @@
     prismlauncher
     # vintagestory
     mgba
-    dolphin-emu
+    # dolphin-emu
+    azahar
     # cemu
     (olympus.override { celesteWrapper = "steam-run"; })
 
