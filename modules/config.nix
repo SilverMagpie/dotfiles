@@ -81,6 +81,10 @@
   security = {
     polkit.enable = true;
     rtkit.enable = true;
+    pki.caCertificateBlacklist = [
+      "Comodo AAA Services root"
+      "emSign ECC Root CA - G3"
+    ];
   };
 
   # if you ever need appimages this is magic code that does magic
