@@ -27,7 +27,7 @@
     discordchatexporter-desktop
     dust
     fzf
-    ventoy
+#     ventoy
 
     ### WORKFLOW ###
     # libreoffice - stable branch
