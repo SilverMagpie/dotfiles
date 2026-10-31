@@ -67,8 +67,6 @@
     (olympus.override { celesteWrapper = "steam-run"; })
 
     ### FIRMWARE ###
-    cacert
-    nss
     linux-firmware
     fwupd
     networkmanager
