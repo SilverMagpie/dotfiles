@@ -27,7 +27,7 @@
     discordchatexporter-desktop
     dust
     fzf
-#     ventoy
+    ventoy
 
     ### WORKFLOW ###
     # libreoffice - stable branch
@@ -67,6 +67,7 @@
     (olympus.override { celesteWrapper = "steam-run"; })
 
     ### FIRMWARE ###
+    cacert
     linux-firmware
     fwupd
     networkmanager
