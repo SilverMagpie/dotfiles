@@ -68,6 +68,7 @@
 
     ### FIRMWARE ###
     cacert
+    nss
     linux-firmware
     fwupd
     networkmanager
