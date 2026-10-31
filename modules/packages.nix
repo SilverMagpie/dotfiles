@@ -89,6 +89,7 @@
 
   nixpkgs.config.permittedInsecurePackages = [
     # "electron-38.8.4"
+    "ventoy-1.1.18"
   ];
 
   environment.plasma6.excludePackages = with pkgs; [
